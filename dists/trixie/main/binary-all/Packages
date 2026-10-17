@@ -2,13 +2,13 @@ Package: photo-selector-linux
 Version: 0.1.0
 Architecture: all
 Maintainer: Alexander Patz <alexpp90@users.noreply.github.com>
-Installed-Size: 212
-Depends: python3 (>= 3.12), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gexiv2-0.10, python3-numpy, python3-pil
-Recommends: heif-gdk-pixbuf
+Installed-Size: 351
+Depends: python3 (>= 3.12), python3-gi, gir1.2-gtk-4.0, gir1.2-adw-1, gir1.2-gexiv2-0.10, gir1.2-gdkpixbuf-2.0, libraw-bin, python3-numpy, python3-pil
+Recommends: heif-gdk-pixbuf, libheif-plugin-libde265
 Filename: pool/main/p/photo-selector-linux/photo-selector-linux_0.1.0_all.deb
-Size: 64072
-SHA256: 68f5af6f2732072a621867449f9edf4f570c7e0b1532b2dbf5829939ec163893
-SHA512: 1fdbaaf8caf617f24c5a96cc3fa7e0894a2afc0296e2a429890bf78cc95e2d1881d82a008dc33c848882749075c48776ea96bcd7db2ae049ced952b6d87540ed
+Size: 99614
+SHA256: 88a5e2bf866512c83b46f3fce873e3e911c9e49287ad7fdf8296b5894d34c6dd
+SHA512: 53f686cb58a75ea442423d27abc0b66af551ba18919b9d7b663a846f555132b6204f8e59f508bb57ef6323f8df4e1e3f878cff8e5cb4f7fc0cef10de64b35f25
 Description: native GNOME photograph culling and selection suite
  Photo Selector Linux is a high-performance native GNOME photograph
  culling and comparison selection suite built for Debian 13 (Trixie)
